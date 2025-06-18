@@ -20,11 +20,11 @@ function load_event() {
     })
     $("#topeople").addEventListener("click",(e)=>{
         localStorage.setItem('data-id', JSON.stringify(2))
-        window.location.href = "/CBA3/gallery/index.html
+        window.location.href = "/CBA3/gallery/index.html"
     })
     $("#tosingle").addEventListener("click",(e)=>{
         localStorage.setItem('data-id', JSON.stringify(1))
-        window.location.href = "/CBA3/gallery/index.html
+        window.location.href = "/CBA3/gallery/index.html"
     })
 }
 
