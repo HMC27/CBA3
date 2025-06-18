@@ -20,9 +20,9 @@ function getevent() {
             $(".nav_items.active .nav_line").style.width = $(".nav_items.active").offsetWidth -48 + "px"
         })
     })
-    $("#topeople").addEventListener("click",(e)=>{
+    $("#togallery").addEventListener("click",(e)=>{
         localStorage.setItem('data-id', JSON.stringify(2))
-        window.location.href = "/gallery/index.html"
+        window.location.href = "/CBA3/gallery/index.html"
     })
 }
 function load() {
@@ -37,8 +37,8 @@ function load() {
             <a href="/classbook/index.html" class="nav_link">Class book</a>
             <div class="nav_line"></div>
         </div>
-        <div name-dt="3" class="nav_items" id="topeople">
-            <a href="/gallery/index.html" class="nav_link">Bộ sưu tập</a>
+        <div name-dt="3" class="nav_items" id="togallery">
+            <a class="nav_link">Bộ sưu tập</a>
             <div class="nav_line"></div>
         </div>
         <div name-dt="4" class="nav_items">
