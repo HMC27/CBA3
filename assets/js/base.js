@@ -30,11 +30,11 @@ function load() {
 <div style="display: flex;" class="grid wide">
     <div class="nav_list">
         <div name-dt="1" class="nav_items">
-            <a href="/index.html" class="nav_link">Trang chủ</a>
+            <a href="/CBA3/index.html" class="nav_link">Trang chủ</a>
             <div class="nav_line"></div>
         </div>
         <div name-dt="2" class="nav_items">
-            <a href="/classbook/index.html" class="nav_link">Class book</a>
+            <a href="/CBA3/classbook/index.html" class="nav_link">Class book</a>
             <div class="nav_line"></div>
         </div>
         <div name-dt="3" class="nav_items" id="togallery">
