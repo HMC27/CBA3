@@ -908,9 +908,9 @@ function loadimg() {
     for (let i = 0 ;i < loadlimg.length/3 ; i++ ) {
         var content = `
     <div class="img_row">
-        <div class="items_box"><img class="items_img" src="${loadlimg[i*4]}" alt=""><div class="items_filter"></div></div>
-        <div class="items_box"><img class="items_img" src="${loadlimg[i*4+1]}" alt=""><div class="items_filter"></div></div>
-        <div class="items_box"><img class="items_img" src="${loadlimg[i*4+2]}" alt=""><div class="items_filter"></div></div>
+        <div class="items_box"><img class="items_img" src="${loadlimg[i*3]}" alt=""><div class="items_filter"></div></div>
+        <div class="items_box"><img class="items_img" src="${loadlimg[i*3+1]}" alt=""><div class="items_filter"></div></div>
+        <div class="items_box"><img class="items_img" src="${loadlimg[i*3+2]}" alt=""><div class="items_filter"></div></div>
     </div>`
         Licontent = Licontent + content
     }
