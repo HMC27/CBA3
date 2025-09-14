@@ -145,9 +145,10 @@
 .img_fs_imgbg {
     background-repeat: no-repeat;
     background-position: top;
+    background-size: contain;
     height: 100%;
     width: 100%;
-    position: relative;
+    position: fixed;
 }
 .img_fs_nav_list {
     position: absolute;
